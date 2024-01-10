@@ -1,22 +1,17 @@
 body {
-  height: 100vh;
   font-family: "Outfit", serif;
   background-color: hsl(212, 45%, 89%);
-  /* display: block */
-  display: inline-block;
-  margin: auto;
-  margin: 0px;
-  padding: 0;
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   box-shadow: 0 10px 40px hsl(220, 15%, 55%);
-  padding: 4%;
-  top: 25%;
+  padding: 2%;
+  margin-top: 20px;
   text-align: center;
   width: 375px;
+  margin: 0px auto;
 }
 img {
   border-radius: 15px;
@@ -39,6 +34,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
